@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .faster-one{
+        font-family: 'Faster One', cursive;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center min-h-screen">
+  <main class="md:flex">
+      <div class="card w-[328px] h-[400px] bg-orange-600 p-[45px] rounded-t-lg md:rounded-r-none md:rounded-l-lg md:hover:scale-110 md:hover:rounded-lg transition-all">
+          <img src="images/icon-sedans.svg" alt="">
+          <div>
+              <h1 class="text-white font-bold my-8 text-4xl faster-one">SEDANS</h1>
+              <p class="text-gray-200 mb-8">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road tip. </p>
+              <button class="bg-slate-200 ease-in duration-300 border-2 hover:bg-transparent hover:border-2 hover:text-white font-bold w-[146px] px-6 py-2 rounded-full">Lear More</button>
+          </div>
+      </div>
+      <div class="card w-[328px] h-[400px] bg-cyan-700 p-[45px] pr-[20px] md:hover:scale-110 md:hover:rounded-lg transition-all">
+        <img src="images/icon-suvs.svg" alt="">
+        <div>
+            <h1 class="text-white font-bold my-8 text-4xl faster-one">SUVS</h1>
+            <p class="text-gray-200 mb-8">Take an SUV for its spacious interior, power, and versatility.Perfect for your next family vacation and off-road adventures.</p>
+            <button class="bg-slate-200 ease-in duration-300 border-2 hover:bg-transparent hover:border-2 hover:text-white font-bold w-[146px] px-6 py-2 rounded-full">Lear More</button>
+        </div>
+    </div>
+    <div class="card w-[328px] h-[400px] bg-teal-800 p-[45px] rounded-b-lg md:rounded-l-none md:rounded-r-lg md:hover:scale-110 md:hover:rounded-lg transition-all">
+      <img src="images/icon-luxury.svg" alt="">
+      <div>
+          <h1 class="text-white font-bold my-8 text-4xl faster-one">LUXURY</h1>
+          <p class="text-gray-200 mb-8">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road tip. </p>
+          <button class="bg-slate-200 ease-in duration-300 border-2 hover:bg-transparent hover:border-2 hover:text-white font-bold w-[146px] px-6 py-2 rounded-full">Lear More</button>
+      </div>
+  </div>
+  </main>
+</body>
+</html> 
